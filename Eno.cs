@@ -12,7 +12,7 @@ using UnityEditor;
 
 public class Eno : EditorWindow {
     private enum measurementStates { first, second, showing, none };
-    private measurementStates measurementState = measurementStates.first;
+    private measurementStates measurementState = measurementStates.none;
     private Vector3 first = Vector3.zero;
     
     private Vector3 second = Vector3.zero;
