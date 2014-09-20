@@ -118,8 +118,7 @@ public class Eno : EditorWindow {
     }
 
     private void Restart() {
-        firstSet = false;
-        secondSet = false;
+        
         measurementState = measurementStates.none;
         first = Vector3.zero;
         second = Vector3.zero;
